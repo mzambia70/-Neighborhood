@@ -1,6 +1,7 @@
 from django import forms
 from .models import *
 
+
 class NeighbourhoodForm(forms.ModelForm):
     class Meta:
         model = Neighbourhood
