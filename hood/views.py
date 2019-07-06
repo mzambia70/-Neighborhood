@@ -6,6 +6,7 @@ from .forms import *
 from .email import send_welcome_email
 from django.contrib.auth.decorators import login_required
 
+
 @login_required(login_url="/accounts/login/")
 def index(request):
     '''
