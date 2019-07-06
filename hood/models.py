@@ -3,6 +3,7 @@ import datetime as dt
 from django.contrib.auth.models import User
 from tinymce.models import HTMLField
 
+
 class Neighbourhood(models.Model):
     image_path = models.ImageField(upload_to = 'images/', null =True, blank = True, default = '../static/images/noimage.svg')
     name = models.CharField(max_length = 100)
