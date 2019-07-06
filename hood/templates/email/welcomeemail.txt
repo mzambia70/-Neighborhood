@@ -1,3 +1,5 @@
 Hello {{name}}
 
-Registration Confirmed. Learn about everything that happens in your neighbourhood. Upload news articles too.
+Registration Confirmed.
+Learn about everything that happens in your neighbourhood.
+Upload news articles too.
